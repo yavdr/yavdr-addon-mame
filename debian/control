@@ -8,6 +8,6 @@ Build-Depends: debhelper (>= 7), cdbs
 
 Package: yavdr-addon-mame
 Architecture: all
-Depends: ${yavdr-startup},${misc:Depends}, yavdr-utils, mame, mame-tools, gnome-video-arcade
+Depends: ${yavdr-startup},${misc:Depends}, yavdr-utils, mame, mame-tools, gnome-video-arcade, dbus-x11
 Description: yavdr-addon-mame
  yavdr-addon-mame
